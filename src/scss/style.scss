@@ -1,0 +1,25 @@
+$primary-black: #262626;
+$primary-white: #fff;
+
+@import "./layout/image.scss";
+@import "./layout/information.scss";
+
+@import "./components/information_menu.scss";
+@import "./components/information_country.scss";
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: $primary-black;
+}
+
+#container{
+  display: table;
+  width: 100%;
+
+  .information, .image{
+    vertical-align: top;
+    display: table-cell;
+  }
+}

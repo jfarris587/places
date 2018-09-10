@@ -1,0 +1,29 @@
+.information_menu{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  .explore{
+    float: left;
+    padding: 60px 80px 60px 80px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+  }
+
+  .more{
+    float: right;
+    background: rgba(0,0,0,.45);
+    color: $primary-white;
+    padding: 60px 70px 60px 70px;
+    font-weight: 600;
+
+
+    cursor: pointer;
+
+    &:hover{
+      background: rgba(0,0,0,.75);
+    }
+  }
+}
